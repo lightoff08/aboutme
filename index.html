@@ -4,12 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LightOFF 個人主頁</title>
-    <meta property="og:title" content="LightOFF 個人主頁">
-    <meta property="og:description" content="LightOFF About me">
-    <meta property="og:image" content="https://i.pinimg.com/736x/a2/01/05/a2010534c36c69243cbad3d6bedcf4a3.jpg">
-    <meta property="og:url" content="https://lightoff08.github.io/aboutme">
-    <meta property="og:url" content="https://lightoff08.github.io/aboutme/">
-    <meta property="og:type" content="website">
     <style>
         * {
             margin: 0;
@@ -19,7 +13,7 @@
 
         body {
             min-height: 100vh;
-            background: url('BG_IMAGE.jpg') no-repeat center center fixed;
+            background: url('BG_image.jpg') no-repeat center center fixed;
             background-size: cover;
             display: flex;
             flex-direction: column;
@@ -72,12 +66,15 @@
             color: rgba(183, 0, 255, 0.9);
             font-style: italic;
             margin-top: 20px;
+            text-shadow:-1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
         }
 
         .quote2 {
-            color: rgba(255, 0, 98, 0.9);
+            color: rgba(141, 0, 54, 0.9);
             font-style: italic;
             margin-top: 20px;
+            font-size: 1em;
+            text-shadow:-1px -1px 0 #ff6eee, 1px -1px 0 #ff6eee, -1px 1px 0 #ff6eee, 1px 1px 0 #ff6eee;
         }
 
         /* 右側創作區 */
@@ -97,6 +94,7 @@
             margin-bottom: 25px;
             text-align: center;
             font-size: 2em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
 
         .creation-links {
@@ -106,13 +104,14 @@
         }
 
         .creation-links a {
-            color: rgb(209, 65, 228);
+            color: rgb(228, 65, 220);
             text-decoration: none;
             padding: 15px 25px;
             background: rgba(255, 255, 255, 0.15);
             border-radius: 10px;
             transition: all 0.3s ease;
             text-align: center;
+            text-shadow:-1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
         }
 
         .creation-links a:hover {
